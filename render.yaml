@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: fem-backend
+    env: python
+    plan: free
+    branch: main
+    root: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    autoDeploy: true
