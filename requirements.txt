@@ -1,24 +1,18 @@
-anastruct==1.6.2
-annotated-doc==0.0.4
-annotated-types==0.7.0
-anyio==4.12.0
-click==8.3.1
-colorama==0.4.6
+# Web
 fastapi==0.123.4
-h11==0.16.0
-httptools==0.7.1
-idna==3.11
-numpy==1.25.4
-pydantic==2.12.5
-pydantic_core==2.41.5
-python-dotenv==1.2.1
-PyYAML==6.0.3
-scipy==1.16.3
-starlette==0.50.0
-typing-inspection==0.4.2
-typing_extensions==4.15.0
 uvicorn==0.38.0
-watchfiles==1.1.1
-websockets==15.0.1
-matplotlib==3.8.2
+
+# Your solver
+anastruct==1.6.2
+
+# Scientific stack (Python 3.13 compatible)
+numpy>=2.1
+scipy>=1.14.1
+matplotlib>=3.8.2
+
+# Optional / commonly needed (only keep if you actually import them)
+python-dotenv>=1.0
+PyYAML>=6.0
+
+
 
